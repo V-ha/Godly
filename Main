@@ -1,0 +1,1095 @@
+local Sword = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") or game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool")
+        
+if Sword.Handle:FindFirstChildOfClass("SpecialMesh") then
+    Sword.Handle.Color = Color3.fromRGB(255, 89, 89)
+    Sword.Handle.Material = "Neon"
+    Sword.Handle.Mesh.TextureId = ""
+    Sword.Handle.Mesh.Scale = Vector3.new(1,1,1)
+end
+
+Beam7 = Instance.new("Beam")
+Beam8 = Instance.new("Beam")
+Beam9 = Instance.new("Beam")
+Beam10 = Instance.new("Beam")
+Beam11 = Instance.new("Beam")
+Beam12 = Instance.new("Beam")
+Beam13 = Instance.new("Beam")
+Beam14 = Instance.new("Beam")
+Beam15 = Instance.new("Beam")
+Beam16 = Instance.new("Beam")
+Beam17 = Instance.new("Beam")
+Beam18 = Instance.new("Beam")
+Beam19 = Instance.new("Beam")
+Beam20 = Instance.new("Beam")
+
+Beam22 = Instance.new("Beam")
+Beam23 = Instance.new("Beam")
+Beam24 = Instance.new("Beam")
+Beam25 = Instance.new("Beam")
+Beam26 = Instance.new("Beam")
+Beam27 = Instance.new("Beam")
+Beam28 = Instance.new("Beam")
+Beam29 = Instance.new("Beam")
+Beam30 = Instance.new("Beam")
+Beam31 = Instance.new("Beam")
+Beam32 = Instance.new("Beam")
+Beam33 = Instance.new("Beam")
+Beam34 = Instance.new("Beam")
+Beam35 = Instance.new("Beam")
+Beam36 = Instance.new("Beam")
+Beam37 = Instance.new("Beam")
+Beam38 = Instance.new("Beam")
+Beam39 = Instance.new("Beam")
+Beam40 = Instance.new("Beam")
+Beam41 = Instance.new("Beam")
+Beam42 = Instance.new("Beam")
+Beam43 = Instance.new("Beam")
+Beam44 = Instance.new("Beam")
+Beam45 = Instance.new("Beam")
+Beam46 = Instance.new("Beam")
+Beam47 = Instance.new("Beam")
+Beam48 = Instance.new("Beam")
+Beam49 = Instance.new("Beam")
+Beam50 = Instance.new("Beam")
+Beam51 = Instance.new("Beam")
+Beam52 = Instance.new("Beam")
+Beam53 = Instance.new("Beam")
+Beam54 = Instance.new("Beam")
+Beam55 = Instance.new("Beam")
+Beam56 = Instance.new("Beam")
+Beam57 = Instance.new("Beam")
+Beam58 = Instance.new("Beam")
+Beam59 = Instance.new("Beam")
+Beam60 = Instance.new("Beam")
+Beam61 = Instance.new("Beam")
+Beam62 = Instance.new("Beam")
+Beam63 = Instance.new("Beam")
+Beam64 = Instance.new("Beam")
+Beam65 = Instance.new("Beam")
+Beam66 = Instance.new("Beam")
+Beam67 = Instance.new("Beam")
+Beam68 = Instance.new("Beam")
+Beam69 = Instance.new("Beam")
+Beam70 = Instance.new("Beam")
+Beam71 = Instance.new("Beam")
+Beam72 = Instance.new("Beam")
+Beam73 = Instance.new("Beam")
+Beam74 = Instance.new("Beam")
+Beam75 = Instance.new("Beam")
+Beam76 = Instance.new("Beam")
+Beam77 = Instance.new("Beam")
+Beam78 = Instance.new("Beam")
+Beam79 = Instance.new("Beam")
+
+Attach7 = Instance.new("Attachment",Sword.Handle)
+Attach7.CFrame = CFrame.new(0.269395828, -0.269406706, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach8 = Instance.new("Attachment",Sword.Handle)
+Attach8.CFrame = CFrame.new(-0.145815372, 0.352003902, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach9 = Instance.new("Attachment",Sword.Handle)
+Attach9.CFrame = CFrame.new(0.0743322372, 0.373709828, -2.04824829, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach10 = Instance.new("Attachment",Sword.Handle)
+Attach10.CFrame = CFrame.new(0.316781044, -0.211671501, -2.04873657, 0.555556059, 0.831479132, 0, 0.831479132, -0.555556059, 0, 0, 0, -1.00000012)
+
+Attach11 = Instance.new("Attachment",Sword.Handle)
+Attach11.CFrame = CFrame.new(-0.316798687, 0.211672992, -2.04873657, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach12 = Instance.new("Attachment",Sword.Handle)
+Attach12.CFrame = CFrame.new(-0.0743327141, -0.373678952, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach13 = Instance.new("Attachment",Sword.Handle)
+Attach13.CFrame = CFrame.new(0.269395828, -0.269406706, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach14 = Instance.new("Attachment",Sword.Handle)
+Attach14.CFrame = CFrame.new(0.0743160248, -0.37367025, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach15 = Instance.new("Attachment",Sword.Handle)
+Attach15.CFrame = CFrame.new(0.373696804, 0.0743436515, -2.04824829, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach16 = Instance.new("Attachment",Sword.Handle)
+Attach16.CFrame = CFrame.new(-0.211680412, -0.316789299, -2.04873657, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach17 = Instance.new("Attachment",Sword.Handle)
+Attach17.CFrame = CFrame.new(-0.211680412, -0.316789299, -2.04873657, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach18 = Instance.new("Attachment",Sword.Handle)
+Attach18.CFrame = CFrame.new(0.381000042, 0, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach19 = Instance.new("Attachment",Sword.Handle)
+Attach19.CFrame = CFrame.new(-0.269418716, -0.269406945, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach20 = Instance.new("Attachment",Sword.Handle)
+Attach20.CFrame = CFrame.new(0.269418716, 0.26943025, -2.04824829, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach21 = Instance.new("Attachment",Sword.Handle)
+Attach21.CFrame = CFrame.new(0, 0, 2.46956635, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach22 = Instance.new("Attachment",Sword.Handle)
+Attach22.CFrame = CFrame.new(-1.28746033e-05, -0.380987912, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach23 = Instance.new("Attachment",Sword.Handle)
+Attach23.CFrame = CFrame.new(-0.0743327141, -0.373678952, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach24 = Instance.new("Attachment",Sword.Handle)
+Attach24.CFrame = CFrame.new(-1.23977661e-05, 0.381011814, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach25 = Instance.new("Attachment",Sword.Handle)
+Attach25.CFrame = CFrame.new(0.269418716, 0.26943025, -2.04824829, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach26 = Instance.new("Attachment",Sword.Handle)
+Attach26.CFrame = CFrame.new(-0.381000042, 0, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach27 = Instance.new("Attachment",Sword.Handle)
+Attach27.CFrame = CFrame.new(-1.28746033e-05, -0.380987912, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach28 = Instance.new("Attachment",Sword.Handle)
+Attach28.CFrame = CFrame.new(-0.373682499, 0.0743296444, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach29 = Instance.new("Attachment",Sword.Handle)
+Attach29.CFrame = CFrame.new(0.211681366, 0.316816181, -2.04824829, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach30 = Instance.new("Attachment",Sword.Handle)
+Attach30.CFrame = CFrame.new(0.381000042, 0, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach31 = Instance.new("Attachment",Sword.Handle)
+Attach31.CFrame = CFrame.new(0, -0.381000012, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach32 = Instance.new("Attachment",Sword.Handle)
+Attach32.CFrame = CFrame.new(-0.145815372, 0.352003902, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach33 = Instance.new("Attachment",Sword.Handle)
+Attach33.CFrame = CFrame.new(0.373675823, -0.0743292272, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach34 = Instance.new("Attachment",Sword.Handle)
+Attach34.CFrame = CFrame.new(0.0743160248, -0.37367025, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach35 = Instance.new("Attachment",Sword.Handle)
+Attach35.CFrame = CFrame.new(0.381018639, 1.11758709e-05, -2.04824829, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach36 = Instance.new("Attachment",Sword.Handle)
+Attach36.CFrame = CFrame.new(0, 0.381031007, -2.04824829, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach37 = Instance.new("Attachment",Sword.Handle)
+Attach37.CFrame = CFrame.new(0.211658955, -0.316786438, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach38 = Instance.new("Attachment",Sword.Handle)
+Attach38.CFrame = CFrame.new(-0.0743422508, 0.373687893, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach39 = Instance.new("Attachment",Sword.Handle)
+Attach39.CFrame = CFrame.new(0.211681366, 0.316816181, -2.04824829, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach40 = Instance.new("Attachment",Sword.Handle)
+Attach40.CFrame = CFrame.new(-0.352010727, -0.145796806, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach41 = Instance.new("Attachment",Sword.Handle)
+Attach41.CFrame = CFrame.new(-0.381011963, 1.14142895e-05, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach42 = Instance.new("Attachment",Sword.Handle)
+Attach42.CFrame = CFrame.new(-0.14580822, -0.351997524, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach43 = Instance.new("Attachment",Sword.Handle)
+Attach43.CFrame = CFrame.new(-0.14580822, -0.351997524, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach44 = Instance.new("Attachment",Sword.Handle)
+Attach44.CFrame = CFrame.new(-0.211685181, 0.316793293, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach45 = Instance.new("Attachment",Sword.Handle)
+Attach45.CFrame = CFrame.new(-0.211685181, 0.316793293, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach46 = Instance.new("Attachment",Sword.Handle)
+Attach46.CFrame = CFrame.new(0.352014065, 0.145819575, -2.04824829, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach47 = Instance.new("Attachment",Sword.Handle)
+Attach47.CFrame = CFrame.new(-0.269418716, -0.269406945, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach48 = Instance.new("Attachment",Sword.Handle)
+Attach48.CFrame = CFrame.new(-0.352004528, 0.145802945, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach49 = Instance.new("Attachment",Sword.Handle)
+Attach49.CFrame = CFrame.new(-1.23977661e-05, 0.381011814, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach50 = Instance.new("Attachment",Sword.Handle)
+Attach50.CFrame = CFrame.new(0.381018639, 1.11758709e-05, -2.04824829, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach51 = Instance.new("Attachment",Sword.Handle)
+Attach51.CFrame = CFrame.new(-0.316798687, 0.211672992, -2.04873657, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach52 = Instance.new("Attachment",Sword.Handle)
+Attach52.CFrame = CFrame.new(-0.373691559, -0.0743210018, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach53 = Instance.new("Attachment",Sword.Handle)
+Attach53.CFrame = CFrame.new(0.145789146, -0.35199216, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach54 = Instance.new("Attachment",Sword.Handle)
+Attach54.CFrame = CFrame.new(0.352014065, 0.145819575, -2.04824829, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach55 = Instance.new("Attachment",Sword.Handle)
+Attach55.CFrame = CFrame.new(-0.373691559, -0.0743210018, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach56 = Instance.new("Attachment",Sword.Handle)
+Attach56.CFrame = CFrame.new(-0.352004528, 0.145802945, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach57 = Instance.new("Attachment",Sword.Handle)
+Attach57.CFrame = CFrame.new(0.14580822, 0.352027208, -2.04824829, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach58 = Instance.new("Attachment",Sword.Handle)
+Attach58.CFrame = CFrame.new(-0.316802502, -0.211669117, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach59 = Instance.new("Attachment",Sword.Handle)
+Attach59.CFrame = CFrame.new(0.351991653, -0.145801872, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach60 = Instance.new("Attachment",Sword.Handle)
+Attach60.CFrame = CFrame.new(-0.381000042, 0, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach61 = Instance.new("Attachment",Sword.Handle)
+Attach61.CFrame = CFrame.new(0.211658955, -0.316786438, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach62 = Instance.new("Attachment",Sword.Handle)
+Attach62.CFrame = CFrame.new(0, -0.381000012, -2.04873657, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach63 = Instance.new("Attachment",Sword.Handle)
+Attach63.CFrame = CFrame.new(0.316802979, 0.211692423, -2.04824829, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach64 = Instance.new("Attachment",Sword.Handle)
+Attach64.CFrame = CFrame.new(-0.0743422508, 0.373687893, -2.04873657, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach65 = Instance.new("Attachment",Sword.Handle)
+Attach65.CFrame = CFrame.new(0.351991653, -0.145801872, -2.04873657, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach66 = Instance.new("Attachment",Sword.Handle)
+Attach66.CFrame = CFrame.new(-0.352010727, -0.145796806, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach67 = Instance.new("Attachment",Sword.Handle)
+Attach67.CFrame = CFrame.new(0, 0.381031007, -2.04824829, 0, 1, 0, 1, 0, 0, 0, 0, -1)
+
+Attach68 = Instance.new("Attachment",Sword.Handle)
+Attach68.CFrame = CFrame.new(0.316781044, -0.211671501, -2.04873657, 0.555555582, 0.83147943, 0, 0.83147943, -0.555555582, 0, 0, 0, -1)
+
+Attach69 = Instance.new("Attachment",Sword.Handle)
+Attach69.CFrame = CFrame.new(0.145789146, -0.35199216, -2.04873657, 0.923881531, 0.382678568, 0, 0.382678568, -0.923881531, 0, 0, 0, -1)
+
+Attach70 = Instance.new("Attachment",Sword.Handle)
+Attach70.CFrame = CFrame.new(0.373675823, -0.0743292272, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach71 = Instance.new("Attachment",Sword.Handle)
+Attach71.CFrame = CFrame.new(0.0743322372, 0.373709828, -2.04824829, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach72 = Instance.new("Attachment",Sword.Handle)
+Attach72.CFrame = CFrame.new(0.373696804, 0.0743436515, -2.04824829, 0.980784655, 0.195093334, 0, 0.195093334, -0.980784655, 0, 0, 0, -1)
+
+Attach73 = Instance.new("Attachment",Sword.Handle)
+Attach73.CFrame = CFrame.new(-0.269419193, 0.269408613, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Attach74 = Instance.new("Attachment",Sword.Handle)
+Attach74.CFrame = CFrame.new(0.14580822, 0.352027208, -2.04824829, 0.382687271, 0.923877954, 0, 0.923877954, -0.382687271, 0, 0, 0, -1)
+
+Attach75 = Instance.new("Attachment",Sword.Handle)
+Attach75.CFrame = CFrame.new(-0.373682499, 0.0743296444, -2.04873657, 0.195122838, 0.980778813, 0, 0.980778813, -0.195122838, 0, 0, 0, -1)
+
+Attach76 = Instance.new("Attachment",Sword.Handle)
+Attach76.CFrame = CFrame.new(-0.316802502, -0.211669117, -2.04873657, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach77 = Instance.new("Attachment",Sword.Handle)
+Attach77.CFrame = CFrame.new(-0.381011963, 1.14142895e-05, -2.04873657, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+
+Attach78 = Instance.new("Attachment",Sword.Handle)
+Attach78.CFrame = CFrame.new(0.316802979, 0.211692423, -2.04824829, 0.831450701, 0.555598497, 0, 0.555598497, -0.831450701, 0, 0, 0, -1)
+
+Attach79 = Instance.new("Attachment",Sword.Handle)
+Attach79.CFrame = CFrame.new(-0.269419193, 0.269408613, -2.04873657, 0.707134247, 0.707079291, 0, 0.707079291, -0.707134247, 0, 0, 0, -1)
+
+Beam7.Parent = Attach7
+Beam7.Attachment0 = Attach21
+Beam7.Attachment1 = Attach7
+Beam7.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam7.FaceCamera = true
+Beam7.LightEmission = 1
+Beam7.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam7.TextureSpeed = 0.5
+Beam7.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam7.Width0 = 0
+Beam7.Width1 = 2
+Beam8.Parent = Attach8
+Beam8.Attachment0 = Attach21
+Beam8.Attachment1 = Attach8
+Beam8.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam8.FaceCamera = true
+Beam8.LightEmission = 1
+Beam8.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam8.TextureSpeed = 0.5
+Beam8.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam8.Width0 = 0
+Beam8.Width1 = 2
+Beam9.Parent = Attach9
+Beam9.Attachment0 = Attach21
+Beam9.Attachment1 = Attach9
+Beam9.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam9.FaceCamera = true
+Beam9.LightEmission = 1
+Beam9.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam9.TextureSpeed = 0.5
+Beam9.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam9.Width0 = 0
+Beam9.Width1 = 2
+Beam10.Parent = Attach10
+Beam10.Attachment0 = Attach21
+Beam10.Attachment1 = Attach10
+Beam10.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam10.FaceCamera = true
+Beam10.LightEmission = 1
+Beam10.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam10.TextureSpeed = 0.5
+Beam10.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam10.Width0 = 0
+Beam10.Width1 = 2
+Beam11.Parent = Attach11
+Beam11.Attachment0 = Attach21
+Beam11.Attachment1 = Attach11
+Beam11.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam11.FaceCamera = true
+Beam11.LightEmission = 1
+Beam11.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam11.TextureSpeed = 0.5
+Beam11.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam11.Width0 = 0
+Beam11.Width1 = 2
+Beam12.Parent = Attach12
+Beam12.Attachment0 = Attach21
+Beam12.Attachment1 = Attach12
+Beam12.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam12.FaceCamera = true
+Beam12.LightEmission = 1
+Beam12.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam12.TextureSpeed = 0.5
+Beam12.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam12.Width0 = 0
+Beam12.Width1 = 2
+Beam13.Parent = Attach13
+Beam13.Attachment0 = Attach21
+Beam13.Attachment1 = Attach13
+Beam13.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam13.FaceCamera = true
+Beam13.LightEmission = 1
+Beam13.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam13.TextureSpeed = 0.5
+Beam13.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam13.Width0 = 0
+Beam13.Width1 = 2
+Beam14.Parent = Attach14
+Beam14.Attachment0 = Attach21
+Beam14.Attachment1 = Attach14
+Beam14.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam14.FaceCamera = true
+Beam14.LightEmission = 1
+Beam14.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam14.TextureSpeed = 0.5
+Beam14.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam14.Width0 = 0
+Beam14.Width1 = 2
+Beam15.Parent = Attach15
+Beam15.Attachment0 = Attach21
+Beam15.Attachment1 = Attach15
+Beam15.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam15.FaceCamera = true
+Beam15.LightEmission = 1
+Beam15.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam15.TextureSpeed = 0.5
+Beam15.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam15.Width0 = 0
+Beam15.Width1 = 2
+Beam16.Parent = Attach16
+Beam16.Attachment0 = Attach21
+Beam16.Attachment1 = Attach16
+Beam16.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam16.FaceCamera = true
+Beam16.LightEmission = 1
+Beam16.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam16.TextureSpeed = 0.5
+Beam16.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam16.Width0 = 0
+Beam16.Width1 = 2
+Beam17.Parent = Attach17
+Beam17.Attachment0 = Attach21
+Beam17.Attachment1 = Attach17
+Beam17.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam17.FaceCamera = true
+Beam17.LightEmission = 1
+Beam17.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam17.TextureSpeed = 0.5
+Beam17.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam17.Width0 = 0
+Beam17.Width1 = 2
+Beam18.Parent = Attach18
+Beam18.Attachment0 = Attach21
+Beam18.Attachment1 = Attach18
+Beam18.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam18.FaceCamera = true
+Beam18.LightEmission = 1
+Beam18.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam18.TextureSpeed = 0.5
+Beam18.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam18.Width0 = 0
+Beam18.Width1 = 2
+Beam19.Parent = Attach19
+Beam19.Attachment0 = Attach21
+Beam19.Attachment1 = Attach19
+Beam19.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam19.FaceCamera = true
+Beam19.LightEmission = 1
+Beam19.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam19.TextureSpeed = 0.5
+Beam19.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam19.Width0 = 0
+Beam19.Width1 = 2
+Beam20.Parent = Attach20
+Beam20.Attachment0 = Attach21
+Beam20.Attachment1 = Attach20
+Beam20.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam20.FaceCamera = true
+Beam20.LightEmission = 1
+Beam20.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam20.TextureSpeed = 0.5
+Beam20.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam20.Width0 = 0
+Beam20.Width1 = 2
+
+Beam22.Parent = Attach22
+Beam22.Attachment0 = Attach21
+Beam22.Attachment1 = Attach22
+Beam22.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam22.FaceCamera = true
+Beam22.LightEmission = 1
+Beam22.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam22.TextureSpeed = 0.5
+Beam22.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam22.Width0 = 0
+Beam22.Width1 = 2
+Beam23.Parent = Attach23
+Beam23.Attachment0 = Attach21
+Beam23.Attachment1 = Attach23
+Beam23.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam23.FaceCamera = true
+Beam23.LightEmission = 1
+Beam23.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam23.TextureSpeed = 0.5
+Beam23.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam23.Width0 = 0
+Beam23.Width1 = 2
+Beam24.Parent = Attach24
+Beam24.Attachment0 = Attach21
+Beam24.Attachment1 = Attach24
+Beam24.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam24.FaceCamera = true
+Beam24.LightEmission = 1
+Beam24.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam24.TextureSpeed = 0.5
+Beam24.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam24.Width0 = 0
+Beam24.Width1 = 2
+Beam25.Parent = Attach25
+Beam25.Attachment0 = Attach21
+Beam25.Attachment1 = Attach25
+Beam25.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam25.FaceCamera = true
+Beam25.LightEmission = 1
+Beam25.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam25.TextureSpeed = 0.5
+Beam25.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam25.Width0 = 0
+Beam25.Width1 = 2
+Beam26.Parent = Attach26
+Beam26.Attachment0 = Attach21
+Beam26.Attachment1 = Attach26
+Beam26.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam26.FaceCamera = true
+Beam26.LightEmission = 1
+Beam26.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam26.TextureSpeed = 0.5
+Beam26.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam26.Width0 = 0
+Beam26.Width1 = 2
+Beam27.Parent = Attach27
+Beam27.Attachment0 = Attach21
+Beam27.Attachment1 = Attach27
+Beam27.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam27.FaceCamera = true
+Beam27.LightEmission = 1
+Beam27.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam27.TextureSpeed = 0.5
+Beam27.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam27.Width0 = 0
+Beam27.Width1 = 2
+Beam28.Parent = Attach28
+Beam28.Attachment0 = Attach21
+Beam28.Attachment1 = Attach28
+Beam28.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam28.FaceCamera = true
+Beam28.LightEmission = 1
+Beam28.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam28.TextureSpeed = 0.5
+Beam28.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam28.Width0 = 0
+Beam28.Width1 = 2
+Beam29.Parent = Attach29
+Beam29.Attachment0 = Attach21
+Beam29.Attachment1 = Attach29
+Beam29.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam29.FaceCamera = true
+Beam29.LightEmission = 1
+Beam29.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam29.TextureSpeed = 0.5
+Beam29.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam29.Width0 = 0
+Beam29.Width1 = 2
+Beam30.Parent = Attach30
+Beam30.Attachment0 = Attach21
+Beam30.Attachment1 = Attach30
+Beam30.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam30.FaceCamera = true
+Beam30.LightEmission = 1
+Beam30.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam30.TextureSpeed = 0.5
+Beam30.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam30.Width0 = 0
+Beam30.Width1 = 2
+Beam31.Parent = Attach31
+Beam31.Attachment0 = Attach21
+Beam31.Attachment1 = Attach31
+Beam31.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam31.FaceCamera = true
+Beam31.LightEmission = 1
+Beam31.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam31.TextureSpeed = 0.5
+Beam31.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam31.Width0 = 0
+Beam31.Width1 = 2
+Beam32.Parent = Attach32
+Beam32.Attachment0 = Attach21
+Beam32.Attachment1 = Attach32
+Beam32.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam32.FaceCamera = true
+Beam32.LightEmission = 1
+Beam32.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam32.TextureSpeed = 0.5
+Beam32.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam32.Width0 = 0
+Beam32.Width1 = 2
+Beam33.Parent = Attach33
+Beam33.Attachment0 = Attach21
+Beam33.Attachment1 = Attach33
+Beam33.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam33.FaceCamera = true
+Beam33.LightEmission = 1
+Beam33.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam33.TextureSpeed = 0.5
+Beam33.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam33.Width0 = 0
+Beam33.Width1 = 2
+Beam34.Parent = Attach34
+Beam34.Attachment0 = Attach21
+Beam34.Attachment1 = Attach34
+Beam34.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam34.FaceCamera = true
+Beam34.LightEmission = 1
+Beam34.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam34.TextureSpeed = 0.5
+Beam34.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam34.Width0 = 0
+Beam34.Width1 = 2
+Beam35.Parent = Attach35
+Beam35.Attachment0 = Attach21
+Beam35.Attachment1 = Attach35
+Beam35.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam35.FaceCamera = true
+Beam35.LightEmission = 1
+Beam35.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam35.TextureSpeed = 0.5
+Beam35.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam35.Width0 = 0
+Beam35.Width1 = 2
+Beam36.Parent = Attach36
+Beam36.Attachment0 = Attach21
+Beam36.Attachment1 = Attach36
+Beam36.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam36.FaceCamera = true
+Beam36.LightEmission = 1
+Beam36.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam36.TextureSpeed = 0.5
+Beam36.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam36.Width0 = 0
+Beam36.Width1 = 2
+Beam37.Parent = Attach37
+Beam37.Attachment0 = Attach21
+Beam37.Attachment1 = Attach37
+Beam37.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam37.FaceCamera = true
+Beam37.LightEmission = 1
+Beam37.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam37.TextureSpeed = 0.5
+Beam37.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam37.Width0 = 0
+Beam37.Width1 = 2
+Beam38.Parent = Attach38
+Beam38.Attachment0 = Attach21
+Beam38.Attachment1 = Attach38
+Beam38.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam38.FaceCamera = true
+Beam38.LightEmission = 1
+Beam38.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam38.TextureSpeed = 0.5
+Beam38.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam38.Width0 = 0
+Beam38.Width1 = 2
+Beam39.Parent = Attach39
+Beam39.Attachment0 = Attach21
+Beam39.Attachment1 = Attach39
+Beam39.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam39.FaceCamera = true
+Beam39.LightEmission = 1
+Beam39.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam39.TextureSpeed = 0.5
+Beam39.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam39.Width0 = 0
+Beam39.Width1 = 2
+Beam40.Parent = Attach40
+Beam40.Attachment0 = Attach21
+Beam40.Attachment1 = Attach40
+Beam40.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam40.FaceCamera = true
+Beam40.LightEmission = 1
+Beam40.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam40.TextureSpeed = 0.5
+Beam40.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam40.Width0 = 0
+Beam40.Width1 = 2
+Beam41.Parent = Attach41
+Beam41.Attachment0 = Attach21
+Beam41.Attachment1 = Attach41
+Beam41.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam41.FaceCamera = true
+Beam41.LightEmission = 1
+Beam41.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam41.TextureSpeed = 0.5
+Beam41.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam41.Width0 = 0
+Beam41.Width1 = 2
+Beam42.Parent = Attach42
+Beam42.Attachment0 = Attach21
+Beam42.Attachment1 = Attach42
+Beam42.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam42.FaceCamera = true
+Beam42.LightEmission = 1
+Beam42.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam42.TextureSpeed = 0.5
+Beam42.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam42.Width0 = 0
+Beam42.Width1 = 2
+Beam43.Parent = Attach43
+Beam43.Attachment0 = Attach21
+Beam43.Attachment1 = Attach43
+Beam43.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam43.FaceCamera = true
+Beam43.LightEmission = 1
+Beam43.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam43.TextureSpeed = 0.5
+Beam43.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam43.Width0 = 0
+Beam43.Width1 = 2
+Beam44.Parent = Attach44
+Beam44.Attachment0 = Attach21
+Beam44.Attachment1 = Attach44
+Beam44.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam44.FaceCamera = true
+Beam44.LightEmission = 1
+Beam44.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam44.TextureSpeed = 0.5
+Beam44.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam44.Width0 = 0
+Beam44.Width1 = 2
+Beam45.Parent = Attach45
+Beam45.Attachment0 = Attach21
+Beam45.Attachment1 = Attach45
+Beam45.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam45.FaceCamera = true
+Beam45.LightEmission = 1
+Beam45.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam45.TextureSpeed = 0.5
+Beam45.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam45.Width0 = 0
+Beam45.Width1 = 2
+Beam46.Parent = Attach46
+Beam46.Attachment0 = Attach21
+Beam46.Attachment1 = Attach46
+Beam46.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam46.FaceCamera = true
+Beam46.LightEmission = 1
+Beam46.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam46.TextureSpeed = 0.5
+Beam46.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam46.Width0 = 0
+Beam46.Width1 = 2
+Beam47.Parent = Attach47
+Beam47.Attachment0 = Attach21
+Beam47.Attachment1 = Attach47
+Beam47.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam47.FaceCamera = true
+Beam47.LightEmission = 1
+Beam47.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam47.TextureSpeed = 0.5
+Beam47.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam47.Width0 = 0
+Beam47.Width1 = 2
+Beam48.Parent = Attach48
+Beam48.Attachment0 = Attach21
+Beam48.Attachment1 = Attach48
+Beam48.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam48.FaceCamera = true
+Beam48.LightEmission = 1
+Beam48.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam48.TextureSpeed = 0.5
+Beam48.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam48.Width0 = 0
+Beam48.Width1 = 2
+Beam49.Parent = Attach49
+Beam49.Attachment0 = Attach21
+Beam49.Attachment1 = Attach49
+Beam49.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam49.FaceCamera = true
+Beam49.LightEmission = 1
+Beam49.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam49.TextureSpeed = 0.5
+Beam49.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam49.Width0 = 0
+Beam49.Width1 = 2
+Beam50.Parent = Attach50
+Beam50.Attachment0 = Attach21
+Beam50.Attachment1 = Attach50
+Beam50.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam50.FaceCamera = true
+Beam50.LightEmission = 1
+Beam50.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam50.TextureSpeed = 0.5
+Beam50.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam50.Width0 = 0
+Beam50.Width1 = 2
+Beam51.Parent = Attach51
+Beam51.Attachment0 = Attach21
+Beam51.Attachment1 = Attach51
+Beam51.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam51.FaceCamera = true
+Beam51.LightEmission = 1
+Beam51.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam51.TextureSpeed = 0.5
+Beam51.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam51.Width0 = 0
+Beam51.Width1 = 2
+Beam52.Parent = Attach52
+Beam52.Attachment0 = Attach21
+Beam52.Attachment1 = Attach52
+Beam52.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam52.FaceCamera = true
+Beam52.LightEmission = 1
+Beam52.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam52.TextureSpeed = 0.5
+Beam52.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam52.Width0 = 0
+Beam52.Width1 = 2
+Beam53.Parent = Attach53
+Beam53.Attachment0 = Attach21
+Beam53.Attachment1 = Attach53
+Beam53.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam53.FaceCamera = true
+Beam53.LightEmission = 1
+Beam53.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam53.TextureSpeed = 0.5
+Beam53.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam53.Width0 = 0
+Beam53.Width1 = 2
+Beam54.Parent = Attach54
+Beam54.Attachment0 = Attach21
+Beam54.Attachment1 = Attach54
+Beam54.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam54.FaceCamera = true
+Beam54.LightEmission = 1
+Beam54.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam54.TextureSpeed = 0.5
+Beam54.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam54.Width0 = 0
+Beam54.Width1 = 2
+Beam55.Parent = Attach55
+Beam55.Attachment0 = Attach21
+Beam55.Attachment1 = Attach55
+Beam55.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam55.FaceCamera = true
+Beam55.LightEmission = 1
+Beam55.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam55.TextureSpeed = 0.5
+Beam55.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam55.Width0 = 0
+Beam55.Width1 = 2
+Beam56.Parent = Attach56
+Beam56.Attachment0 = Attach21
+Beam56.Attachment1 = Attach56
+Beam56.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam56.FaceCamera = true
+Beam56.LightEmission = 1
+Beam56.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam56.TextureSpeed = 0.5
+Beam56.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam56.Width0 = 0
+Beam56.Width1 = 2
+Beam57.Parent = Attach57
+Beam57.Attachment0 = Attach21
+Beam57.Attachment1 = Attach57
+Beam57.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam57.FaceCamera = true
+Beam57.LightEmission = 1
+Beam57.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam57.TextureSpeed = 0.5
+Beam57.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam57.Width0 = 0
+Beam57.Width1 = 2
+Beam58.Parent = Attach58
+Beam58.Attachment0 = Attach21
+Beam58.Attachment1 = Attach58
+Beam58.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam58.FaceCamera = true
+Beam58.LightEmission = 1
+Beam58.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam58.TextureSpeed = 0.5
+Beam58.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam58.Width0 = 0
+Beam58.Width1 = 2
+Beam59.Parent = Attach59
+Beam59.Attachment0 = Attach21
+Beam59.Attachment1 = Attach59
+Beam59.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam59.FaceCamera = true
+Beam59.LightEmission = 1
+Beam59.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam59.TextureSpeed = 0.5
+Beam59.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam59.Width0 = 0
+Beam59.Width1 = 2
+Beam60.Parent = Attach60
+Beam60.Attachment0 = Attach21
+Beam60.Attachment1 = Attach60
+Beam60.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam60.FaceCamera = true
+Beam60.LightEmission = 1
+Beam60.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam60.TextureSpeed = 0.5
+Beam60.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam60.Width0 = 0
+Beam60.Width1 = 2
+Beam61.Parent = Attach61
+Beam61.Attachment0 = Attach21
+Beam61.Attachment1 = Attach61
+Beam61.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam61.FaceCamera = true
+Beam61.LightEmission = 1
+Beam61.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam61.TextureSpeed = 0.5
+Beam61.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam61.Width0 = 0
+Beam61.Width1 = 2
+Beam62.Parent = Attach62
+Beam62.Attachment0 = Attach21
+Beam62.Attachment1 = Attach62
+Beam62.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam62.FaceCamera = true
+Beam62.LightEmission = 1
+Beam62.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam62.TextureSpeed = 0.5
+Beam62.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam62.Width0 = 0
+Beam62.Width1 = 2
+Beam63.Parent = Attach63
+Beam63.Attachment0 = Attach21
+Beam63.Attachment1 = Attach63
+Beam63.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam63.FaceCamera = true
+Beam63.LightEmission = 1
+Beam63.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam63.TextureSpeed = 0.5
+Beam63.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam63.Width0 = 0
+Beam63.Width1 = 2
+Beam64.Parent = Attach64
+Beam64.Attachment0 = Attach21
+Beam64.Attachment1 = Attach64
+Beam64.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam64.FaceCamera = true
+Beam64.LightEmission = 1
+Beam64.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam64.TextureSpeed = 0.5
+Beam64.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam64.Width0 = 0
+Beam64.Width1 = 2
+Beam65.Parent = Attach65
+Beam65.Attachment0 = Attach21
+Beam65.Attachment1 = Attach65
+Beam65.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam65.FaceCamera = true
+Beam65.LightEmission = 1
+Beam65.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam65.TextureSpeed = 0.5
+Beam65.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam65.Width0 = 0
+Beam65.Width1 = 2
+Beam66.Parent = Attach66
+Beam66.Attachment0 = Attach21
+Beam66.Attachment1 = Attach66
+Beam66.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam66.FaceCamera = true
+Beam66.LightEmission = 1
+Beam66.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam66.TextureSpeed = 0.5
+Beam66.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam66.Width0 = 0
+Beam66.Width1 = 2
+Beam67.Parent = Attach67
+Beam67.Attachment0 = Attach21
+Beam67.Attachment1 = Attach67
+Beam67.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam67.FaceCamera = true
+Beam67.LightEmission = 1
+Beam67.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam67.TextureSpeed = 0.5
+Beam67.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam67.Width0 = 0
+Beam67.Width1 = 2
+Beam68.Parent = Attach68
+Beam68.Attachment0 = Attach21
+Beam68.Attachment1 = Attach68
+Beam68.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam68.FaceCamera = true
+Beam68.LightEmission = 1
+Beam68.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam68.TextureSpeed = 0.5
+Beam68.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam68.Width0 = 0
+Beam68.Width1 = 2
+Beam69.Parent = Attach69
+Beam69.Attachment0 = Attach21
+Beam69.Attachment1 = Attach69
+Beam69.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam69.FaceCamera = true
+Beam69.LightEmission = 1
+Beam69.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam69.TextureSpeed = 0.5
+Beam69.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam69.Width0 = 0
+Beam69.Width1 = 2
+Beam70.Parent = Attach70
+Beam70.Attachment0 = Attach21
+Beam70.Attachment1 = Attach70
+Beam70.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam70.FaceCamera = true
+Beam70.LightEmission = 1
+Beam70.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam70.TextureSpeed = 0.5
+Beam70.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam70.Width0 = 0
+Beam70.Width1 = 2
+Beam71.Parent = Attach71
+Beam71.Attachment0 = Attach21
+Beam71.Attachment1 = Attach71
+Beam71.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam71.FaceCamera = true
+Beam71.LightEmission = 1
+Beam71.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam71.TextureSpeed = 0.5
+Beam71.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam71.Width0 = 0
+Beam71.Width1 = 2
+Beam72.Parent = Attach72
+Beam72.Attachment0 = Attach21
+Beam72.Attachment1 = Attach72
+Beam72.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam72.FaceCamera = true
+Beam72.LightEmission = 1
+Beam72.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam72.TextureSpeed = 0.5
+Beam72.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam72.Width0 = 0
+Beam72.Width1 = 2
+Beam73.Parent = Attach73
+Beam73.Attachment0 = Attach21
+Beam73.Attachment1 = Attach73
+Beam73.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam73.FaceCamera = true
+Beam73.LightEmission = 1
+Beam73.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam73.TextureSpeed = 0.5
+Beam73.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam73.Width0 = 0
+Beam73.Width1 = 2
+Beam74.Parent = Attach74
+Beam74.Attachment0 = Attach21
+Beam74.Attachment1 = Attach74
+Beam74.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam74.FaceCamera = true
+Beam74.LightEmission = 1
+Beam74.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam74.TextureSpeed = 0.5
+Beam74.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam74.Width0 = 0
+Beam74.Width1 = 2
+Beam75.Parent = Attach75
+Beam75.Attachment0 = Attach21
+Beam75.Attachment1 = Attach75
+Beam75.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam75.FaceCamera = true
+Beam75.LightEmission = 1
+Beam75.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam75.TextureSpeed = 0.5
+Beam75.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam75.Width0 = 0
+Beam75.Width1 = 2
+Beam76.Parent = Attach76
+Beam76.Attachment0 = Attach21
+Beam76.Attachment1 = Attach76
+Beam76.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam76.FaceCamera = true
+Beam76.LightEmission = 1
+Beam76.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam76.TextureSpeed = 0.5
+Beam76.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam76.Width0 = 0
+Beam76.Width1 = 2
+Beam77.Parent = Attach77
+Beam77.Attachment0 = Attach21
+Beam77.Attachment1 = Attach77
+Beam77.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam77.FaceCamera = true
+Beam77.LightEmission = 1
+Beam77.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam77.TextureSpeed = 0.5
+Beam77.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam77.Width0 = 0
+Beam77.Width1 = 2
+Beam78.Parent = Attach78
+Beam78.Attachment0 = Attach21
+Beam78.Attachment1 = Attach78
+Beam78.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam78.FaceCamera = true
+Beam78.LightEmission = 1
+Beam78.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam78.TextureSpeed = 0.5
+Beam78.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam78.Width0 = 0
+Beam78.Width1 = 2
+Beam79.Parent = Attach79
+Beam79.Attachment0 = Attach21
+Beam79.Attachment1 = Attach79
+Beam79.Color = ColorSequence.new(Color3.new(1, 0.101961, 0.207843),Color3.new(1, 0.423529, 0.458824))
+Beam79.FaceCamera = true
+Beam79.LightEmission = 1
+Beam79.Texture = "http://www.roblox.com/asset/?id=1134824633"
+Beam79.TextureSpeed = 0.5
+Beam79.Transparency = NumberSequence.new(0.8500000238418579,0.9900000095367432,1)
+Beam79.Width0 = 0
+Beam79.Width1 = 2
